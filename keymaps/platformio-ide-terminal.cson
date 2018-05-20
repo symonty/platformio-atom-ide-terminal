@@ -6,6 +6,7 @@
   'cmd-alt-f': 'platformio-ide-terminal:focus'
   'ctrl-enter': 'platformio-ide-terminal:insert-selected-text'
   'ctrl-`': 'platformio-ide-terminal:toggle'
+  'ctrl-alt-enter': 'platformio-ide-terminal:insert-selected-text'
 
 '.platform-linux atom-workspace, .platform-win32 atom-workspace':
   'alt-shift-t': 'platformio-ide-terminal:new'
@@ -19,7 +20,6 @@
 '.platform-darwin .platformio-ide-terminal .terminal':
   'cmd-c': 'platformio-ide-terminal:copy'
   'cmd-v': 'platformio-ide-terminal:paste'
-  'ctrl-alt-enter': 'platformio-ide-terminal:insert-selected-text'
 
 '.platform-linux .platformio-ide-terminal .terminal, .platform-win32 .platformio-ide-terminal .terminal':
   'alt-v': 'platformio-ide-terminal:paste'
