@@ -19,7 +19,7 @@
 '.platform-darwin .platformio-ide-terminal .terminal':
   'cmd-c': 'platformio-ide-terminal:copy'
   'cmd-v': 'platformio-ide-terminal:paste'
-  'ctrl-cmd-enter': 'platformio-ide-terminal:insert-selected-text'
+  'ctrl-alt-enter': 'platformio-ide-terminal:insert-selected-text'
 
 '.platform-linux .platformio-ide-terminal .terminal, .platform-win32 .platformio-ide-terminal .terminal':
   'alt-v': 'platformio-ide-terminal:paste'
